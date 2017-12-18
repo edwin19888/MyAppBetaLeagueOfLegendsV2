@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itemChampion" android:title="Campeones" android:icon="@drawable/ic_champion"/>
+    <item android:id="@+id/itemSearch" android:title="Buscar" android:icon="@drawable/ic_search"/>
+    <item android:id="@+id/itemObjects" android:title="Objetos" android:icon="@drawable/ic_object"/>
+    <item android:id="@+id/itemSettings" android:title="Configuración" android:icon="@drawable/ic_setting"/>
+</menu>

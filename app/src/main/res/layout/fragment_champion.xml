@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.edwin.myappbetaleagueoflegends.ChampionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:background="@drawable/image_champions"/>
+    <ImageView
+        android:layout_marginTop="212dp"
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:background="@drawable/image_champions2"/>
+
+</FrameLayout>
