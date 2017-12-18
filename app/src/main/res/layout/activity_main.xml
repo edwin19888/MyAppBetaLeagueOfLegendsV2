@@ -4,14 +4,66 @@
     android:id="@+id/drawerlayoutIntro"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg_search"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.example.edwin.myappbetaleagueoflegends.MainActivity">
+    tools:context=".MainActivity">
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/flcontent"
         android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/logo_legend"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="250dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextSearchSummoner"
+                android:singleLine="true"
+                android:hint="@string/textViewSearch"
+                android:textColorHint="@color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_bg"
+                android:gravity="center"
+                android:textCursorDrawable="@null"
+                android:textColor="@color/white"
+                android:maxLength="18" />
+
+            <ProgressBar
+                android:id="@+id/progressBarSearch"
+                android:visibility="invisible"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="280dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/buttonSearchSummoner"
+                android:text="@string/textButtonSearch"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
     </FrameLayout>
 
     <android.support.design.widget.NavigationView
